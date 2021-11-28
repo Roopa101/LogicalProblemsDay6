@@ -12,7 +12,7 @@ namespace LogicalPrograms
         {
 
             Console.WriteLine("Please choose program number. which program need to execute");
-            Console.WriteLine("1:FibonacciSeries\n ");
+            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -21,6 +21,11 @@ namespace LogicalPrograms
                     Console.WriteLine("Please enter the number");
                     int fibonacci = Convert.ToInt32(Console.ReadLine());
                     FibonacciSeries.ReadInput(fibonacci);
+                    break;
+                case 2:
+                    Console.WriteLine("Please enter the number");
+                    int perfect = Convert.ToInt32(Console.ReadLine());
+                    PerfectNumber.ReadInput(perfect);
                     break;
 
                 default:
