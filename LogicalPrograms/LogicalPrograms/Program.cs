@@ -12,7 +12,7 @@ namespace LogicalPrograms
         {
 
             Console.WriteLine("Please choose program number. which program need to execute");
-            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine");
+            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine\n 8:DayOfWeek\n");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -22,25 +22,30 @@ namespace LogicalPrograms
                     int fibonacci = Convert.ToInt32(Console.ReadLine());
                     FibonacciSeries.ReadInput(fibonacci);
                     break;
+                
                 case 2:
                     Console.WriteLine("Please enter the number");
                     int perfect = Convert.ToInt32(Console.ReadLine());
                     PerfectNumber.ReadInput(perfect);
                     break;
+                
                 case 3:
                     Console.WriteLine("Please enter the number");
                     int prime = Convert.ToInt32(Console.ReadLine());
                     PrimeNumber.ReadInput(prime);
                     break;
+                
                 case 4:
                     Console.WriteLine("Please enter the number");
                     int reverse = Convert.ToInt32(Console.ReadLine());
                     ReverseNumber.ReadInput(reverse);
                     break;
+                
                 case 5:
                     
                     CouponNumber.DistinctCouponNumber();
                     break;
+                        
                 case 6:
 
                     ElapsedTime.IterateOverLoop();
@@ -49,6 +54,11 @@ namespace LogicalPrograms
                 case 7:
 
                     VendingMachine.FindMinimumNotes();
+                    break;
+                
+                case 8:
+
+                    DayOfWeek.DayWeekYear();
                     break;
 
                 default:
