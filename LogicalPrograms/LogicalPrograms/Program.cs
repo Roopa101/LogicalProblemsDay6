@@ -12,7 +12,7 @@ namespace LogicalPrograms
         {
 
             Console.WriteLine("Please choose program number. which program need to execute");
-            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumber");
+            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -40,6 +40,10 @@ namespace LogicalPrograms
                 case 5:
                     
                     CouponNumber.DistinctCouponNumber();
+                    break;
+                case 6:
+
+                    ElapsedTime.IterateOverLoop();
                     break;
 
                 default:
