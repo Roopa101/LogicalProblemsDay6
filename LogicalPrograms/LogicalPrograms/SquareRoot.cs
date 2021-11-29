@@ -10,7 +10,7 @@ namespace LogicalPrograms
     {
         public static void Root()
         {
-            Console.WriteLine("Enter the Square Number");
+            Console.WriteLine("Enter the  Number");
             double c = Double.Parse(Console.ReadLine());
 
             double epsilon = 1e-15;    // relative error tolerance
