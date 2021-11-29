@@ -47,6 +47,7 @@
     <Compile Include="DayOfWeek.cs" />
     <Compile Include="ElapsedTime.cs" />
     <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="MonthlyPayment.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Program.cs" />

@@ -12,7 +12,7 @@ namespace LogicalPrograms
         {
 
             Console.WriteLine("Please choose program number. which program need to execute");
-            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine\n 8:DayOfWeek\n 9:TemperatureConversion \n");
+            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine\n 8:DayOfWeek\n 9:TemperatureConversion \n 10:MonthlyPayment\n");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -63,7 +63,10 @@ namespace LogicalPrograms
                 case 9:
                     TemperatureConversion.Temp();
                     break;
-              
+                case 10:
+                    MonthlyPayment.Money();
+                    break;
+
 
                 default:
 
