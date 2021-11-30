@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CouponNumber.cs" />
     <Compile Include="DayOfWeek.cs" />
+    <Compile Include="SwappingNibbles.cs" />
     <Compile Include="ElapsedTime.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="MonthlyPayment.cs" />
