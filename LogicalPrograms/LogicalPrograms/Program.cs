@@ -12,7 +12,7 @@ namespace LogicalPrograms
         {
 
             Console.WriteLine("Please choose program number. which program need to execute");
-            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine\n 8:DayOfWeek\n 9:TemperatureConversion \n 10:MonthlyPayment\n 11:SquareRoot\n 12:SwappingNibbles\n");
+            Console.WriteLine("1:FibonacciSeries\n 2:PerfectNumber\n 3:PrimeNumber\n 4:ReverseNumber\n 5:CouponNumbe \n 6:ElapsedTime\n 7:VendingMachine\n 8:DayOfWeek\n 9:TemperatureConversion \n 10:MonthlyPayment\n 11:SquareRoot\n 12:SwappingNibbles\n 13:ToBinary\n");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -73,6 +73,11 @@ namespace LogicalPrograms
                     int number = sw.swapNibbles(100);
 
                     Console.WriteLine("After swapping of nibbles: " + number);
+                    break;
+                case 13:
+                    ToBinary.block(106);
+
+                    
                     break;
 
                 default:
